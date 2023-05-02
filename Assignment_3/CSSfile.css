@@ -1,0 +1,44 @@
+.flex-topdown {
+	display: flex;
+	flex-direction: column;
+	background-color:	lightpink;
+	margin: 6px;
+	padding: 6px;
+}
+
+
+.flex-topdown > div {
+	background-color:	lightblue;
+	margin: 6px;
+	padding: 6px;
+	}
+
+
+.flex-leftright {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:	lightyellow;
+	margin: 6px;
+	padding: 6px;
+}
+
+
+.flex-center {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color:	blue;
+	margin: 2px;
+	padding: 2px;
+}
+
+.flex-center > div {
+	background-color:	lightpink;
+	margin: 2px;
+	padding: 2px;
+}
+
+hr {	
+	border: 1px solid blue;
+}

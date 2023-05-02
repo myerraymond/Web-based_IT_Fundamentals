@@ -1,0 +1,38 @@
+Lab Services link: https://labs.azure.com/register/igzip7kb
+
+(You need to create your own Microsoft account linked to your email address)
+
+
+To access your VM once you have registered and to stop it:
+
+	https://labs.azure.com/virtualmachines
+	Login with your Microsoft account details
+
+Important when stopping your VM - leave the web browser window open until you see 'Stopped' displayed (if you close the window before the time will keep ticking)
+
+
+User account for VM:
+
+	username:	sfsadmin
+	password:	M@ss3y_01
+
+Database:		db_sfsadmin
+
+Database account:		
+
+	username:	sfsadmin
+	password:	M@ss3y_01
+
+
+Script to setup database (do only once for setup):
+
+Change directory:	cd /srv
+Execute:		sh create_db_related.sh
+
+Database root password asked for: M@ss3y_01
+
+
+Moodle site url:		http://localhost/moodle
+Database exploration url: 	http://localhost/phpmyadmin
+
+
